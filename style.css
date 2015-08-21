@@ -43,7 +43,7 @@ header p {
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	transstion: all 0.5s ease;
 }
 
 /* .photobanner img:hover {
@@ -61,14 +61,15 @@ header p {
 
 /*keyframe animations*/
 .first {
-/*	-webkit-animation: bannermove 30s linear infinite;
-	-moz-animation: bannermove 30s linear infinite;
-	-ms-animation: bannermove 30s linear infinite; */
+	-webkit-animation: bannermove 90s linear infinite;
+	-moz-animation: bannermove 90s linear infinite;
+	-ms-animation: bannermove 90s linear infinite;
 	animation: bannermove 90s linear infinite; 
 }
 .reverse {
-/*	-moz-animation: bannermove 30s linear infinite;
-	-ms-animation: bannermove 30s linear infinite; */
+	-webkit-animation: reversebannermove 90s linear infinite;
+	-moz-animation: reversebannermove 90s linear infinite;
+	-ms-animation: reversebannermove 90s linear infinite;
 	animation: reversebannermove 90s linear infinite; 
 }
 
@@ -79,8 +80,17 @@ header p {
  100% {
     margin-left: -4125px;
  }
-
 }
+
+@keyframes reversebannermove {
+ 100% {
+   margin-left: 0px;
+ }
+ 0% {
+   margin-left: -4125px;
+ }
+}
+
 @-moz-keyframes bannermove {
  0% {
    margin-left: 0px;
@@ -88,8 +98,8 @@ header p {
  100% {
    margin-left: -4125px;
  }
-
 }
+
 @-moz-keyframes reversebannermove {
  100% {
    margin-left: 0px;
@@ -97,18 +107,15 @@ header p {
  0% {
    margin-left: -4125px;
  }
-
 }
 
-/*
 @-webkit-keyframes "bannermove" {
  0% {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -4125px;
  }
-
 }
 
 @-ms-keyframes "bannermove" {
@@ -116,9 +123,8 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -4125px;
  }
-
 }
 
 @-o-keyframes "bannermove" {
@@ -126,7 +132,6 @@ header p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -4125px;
  }
-
-} */
+} 
