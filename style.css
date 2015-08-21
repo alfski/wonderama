@@ -127,6 +127,15 @@ header p {
  }
 }
 
+@-ms-keyframes "reversebannermove" {
+ 100% {
+   margin-left: 0px;
+ }
+ 0% {
+   margin-left: -4125px;
+ }
+}
+
 @-o-keyframes "bannermove" {
  0% {
    margin-left: 0px;
