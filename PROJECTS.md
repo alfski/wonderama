@@ -23,8 +23,21 @@ Refresh nodejs relayer to use ClientAddrPort for relaying id.
 
 Python mod for Minecraft coding classes
 
-## Check out BB8 Sphero coding and hacking
+## Check out Sphero coding and hacking
+
+Using loaned bb8
 
 ## SpaceEngine 360 fisheye for planetarium
 
-prove this is useful. Get ruinning on laptop.
+prove this is useful. Get running on laptop.
+
+## Photogrammetry scans
+
+From 360 cams and fisheye
+
+## SteamVR Destinations scene building
+
+## Take some good 360's around campus
+
+
+
