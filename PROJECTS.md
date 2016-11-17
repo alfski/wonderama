@@ -37,7 +37,14 @@ From 360 cams and fisheye
 
 ## SteamVR Destinations scene building
 
-## Take some good 360's around campus
+Get Penbot into a scene!
 
+## Take some good 360 panorama's around campus
+
+360 photo stock. Use DSLR or Theta. Try and get 50-80megapixels. Build case for higher quality cameras.
+
+## Beacons
+
+Beacon tracking for parked SCEM vehicles. Sensor for front Y or back Z car park. 50m range, 10 seconds.
 
 
