@@ -43,8 +43,20 @@ Get Penbot into a scene!
 
 360 photo stock. Use DSLR or Theta. Try and get 50-80megapixels. Build case for higher quality cameras.
 
+## Figure out how to make HDR environment maps
+
+Possibly use multi-exposure Theta 360 imagery to construct HDR environment maps for sketchfab.com
+
 ## Beacons
 
 Beacon tracking for parked SCEM vehicles. Sensor for front Y or back Z car park. 50m range, 10 seconds.
+
+## Learn about 3D models and materials
+
+3DS, Blender, Rhino, Solidworks... getting the good oik
+
+## DataArena pipelines
+
+Houdini 3D engine, OmegaLib, datavis VM
 
 
